@@ -1,0 +1,76 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+p, li {
+     font-family: 'Quicksand', sans-serif;
+ }
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: darkred;
+}
+/* 
+a:visited {
+    color: black
+} */
+
+ h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bungee Inline', cursive;
+
+ }
+
+ .fixed-image {
+     position: fixed;
+     margin-left: 20px;
+     width: 35%;
+     z-index: 2;
+ }
+
+ .background-div {
+    background-image: url("http://i.imgur.com/tpW49HY.jpg");
+    background-repeat: repeat-y;
+    height:980px;
+ }
+
+body {
+    background-image: url("http://snsltd.co.uk/wp-content/uploads/2016/12/Untitled-154.jpg")
+ }
+
+.wrapping {
+    width: 50%;
+    float: right;
+}
+
+.small-wrapped {
+    width: 50%;
+}
+
+.small-size {
+    width: 80%;
+}
+
+.extra-padding {
+    margin: 20;
+    padding: 20px;
+}
+.center-div
+{
+     margin: 0 auto;
+     width: 100px; 
+}

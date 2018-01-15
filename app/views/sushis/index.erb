@@ -1,0 +1,7 @@
+<h1>Browse our Mountains of Sushi:</h1>
+<div class="wrapping background-div">
+    <img class="img-responsive fixed-image img-circle" src="https://cdn.dribbble.com/users/644992/screenshots/1772842/twin_peaks.jpg"/>
+</div>
+<% @sushis.map do |sushi| %>
+    <li> <%= sushi.name %> </li>
+<% end %>
