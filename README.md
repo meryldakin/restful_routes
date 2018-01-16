@@ -14,4 +14,15 @@ This is a CRUD app with a workshop and solution branch to practice writing RESTf
 
 ## Instructions
 
-Now you should be able to access the root at localhost:/3000. [CLICK HERE](https://docs.google.com/presentation/d/e/2PACX-1vSHC0_H0j6UhUMNE-VsHlAC44HS2eSspvqRQy5JL6GSn0nD4rFRRFKW71VCKClR5ffVVwMvyYUwdUJD/pub?start=false&loop=false&delayms=5000) and follow the slides to help this app reach full CRUD actions!
+Now you should be able to access the root at localhost:/3000. [CLICK HERE](https://docs.google.com/presentation/d/e/2PACX-1vSHC0_H0j6UhUMNE-VsHlAC44HS2eSspvqRQy5JL6GSn0nD4rFRRFKW71VCKClR5ffVVwMvyYUwdUJD/pub?start=false&loop=false&delayms=5000) and follow the slides to help this app reach full CRUD actions! The pages of the final project should look like the images below:
+
+#### Home
+![homepage](images/home.png)
+#### Index
+![index](images/index.png)
+#### Show
+![show](images/show.png)
+#### New
+![new](images/new.png)
+#### Edit
+![edit](images/edit.png)

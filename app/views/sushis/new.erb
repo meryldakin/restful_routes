@@ -1,25 +1,25 @@
 <h1>Build-your-own sushi!</h1>
 <div class="container">
-    <div class="row">
-        <div class="col-xs-8">
-            <br/>
-            <p>You name it, we make it. Fill out your preference and our waiter will bring it directly to you.</p>
-            <br/>
-            <%= form_for @sushi do |f| %>
-                <%= f.label :name %>
-                <%= f.text_field :name %>
-                <br/>
-                <br/>
-                <%= f.submit %>
-            <% end %>
-        </div>
-        <div class="col-xs-4">
-            <div class="card" style="width: 20rem;">
-                <img class="card-img-top img-responsive" src="https://i.pinimg.com/736x/58/b1/d7/58b1d789616aa6ef4ae6b56cf86af16b--coffee-geek-drink-coffee.jpg"/>
-                <div class="card-block">
-                    <p class="card-text">Every sushi order comes with a cup of damn fine coffee.</p>
-                </div>
-            </div>
-        </div>
+  <div class="row">
+    <div class="col-xs-8">
+      <br/>
+      <p>You name it, we make it. Fill out your preference and our waiter will bring it directly to you.</p>
+      <br/>
+      <%= form_for @sushi do |f| %>
+      <%= f.label :name %>
+      <%= f.text_field :name %>
+      <br/>
+      <br/>
+      <%= f.submit %>
+    <% end %>
+  </div>
+  <div class="col-xs-4">
+    <div class="card" style="width: 20rem;">
+      <img class="card-img-top img-responsive" src="https://i.pinimg.com/736x/58/b1/d7/58b1d789616aa6ef4ae6b56cf86af16b--coffee-geek-drink-coffee.jpg"/>
+      <div class="card-block">
+        <p class="card-text">Every sushi order comes with a cup of damn fine coffee.</p>
+      </div>
     </div>
+  </div>
+</div>
 </div>
