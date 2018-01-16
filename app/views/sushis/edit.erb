@@ -1,4 +1,20 @@
-<%= form_for @sushi do |f| %>
-    <%= f.text_field :name %>
-    <%= f.submit %>
-<% end %>
+<h1> Mix it up! </h1>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-8">
+            <p>Alter this sushi to your heart's content:</p>
+            <%= form_for @sushi do |f| %>
+                <%= f.text_field :name %>
+                <%= f.submit %>
+            <% end %>
+        </div>
+        <div class="col-xs-4">
+            <div class="card" style="width: 20rem;">
+                <img class="card-img-top img-responsive" src="https://images.bigcartel.com/product_images/198520063/BlueRose.jpg?auto=format&fit=max&h=1000&w=1000"/>
+                <div class="card-block">
+                    <p class="card-text">Sushi so good you won't believe it exists in nature!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
