@@ -1,24 +1,17 @@
-# README
+# Owl Cave Sushi Cafe
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a CRUD app with a workshop and solution branch to practice writing RESTful Routes, corresponding controller actions, and rendering the associated views.
 
-Things you may want to cover:
+## How to Run
 
-* Ruby version
+1. Clone down this lab
+2. Make sure you're on the "workshop" branch
+2. Run `bundle install`
+3. Run `rake db:create`
+4. Run `rake db:migrate`
+5. Run `rake db:seed`
+6. Run `rails s`
 
-* System dependencies
+## Instructions
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Now you should be able to access the root at localhost:/3000. [CLICK HERE](https://docs.google.com/presentation/d/e/2PACX-1vSHC0_H0j6UhUMNE-VsHlAC44HS2eSspvqRQy5JL6GSn0nD4rFRRFKW71VCKClR5ffVVwMvyYUwdUJD/pub?start=false&loop=false&delayms=5000) and follow the slides to help this app reach full CRUD actions!
